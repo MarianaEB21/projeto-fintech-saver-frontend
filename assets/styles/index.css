@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('./colors.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Glory';
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: white
+}
+
+body {
+    min-height: 100vh;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 40px;
+}
+
+.saver-container {
+    max-width: 850px;
+    min-width: 300px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 50px;
+}
+
+.saver-welcome-image {
+    margin-bottom: 41px;
+    pointer-events: none;
+}
+
+.saver-container .login-form .input-box .input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid var(--input-border-box);
+    transition: all 0.3s ease;
+}
+
+.saver-title {
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.saver-subtitle {
+    font-weight: 300;
+}
+
+/*
+====================== separar em outro arquivo o que está abaixo
+*/
+.saver-form .icon {
+    font-size: 18px;
+    height: 26px;
+    width: 26px;
+    padding: 7px;
+}
+
+.saver-form .form-control {
+    border-radius: 10px;
+    background: var(--input-background);
+    font-size: 18px;
+    height: 25px;
+    padding: 15px;
+    margin-bottom: 18px;
+}
+
+.saver-form .form-control::placeholder {
+    font-weight: 800;
+    color: var(--input-placeholder);
+}
+
+.saver-form .button-form-control {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px;
+    width: 140px;
+}
+
+.saver-footer {
+    margin-top: 18px;
+}
+
+.saver-footer .divider {
+    margin: 18px 0;
+    font-weight: bold;
+}
+

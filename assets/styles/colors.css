@@ -1,0 +1,6 @@
+:root {
+    --primary-color: #06b8c6;
+    --input-placeholder: rgba(0, 0, 0, 0.4);
+    --input-background: rgba(6, 184, 198, 0.32);
+    --input-border-box: rgba(0, 0, 0, 0.2);
+}
