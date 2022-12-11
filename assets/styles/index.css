@@ -23,7 +23,6 @@ body {
 
 .saver-container {
     max-width: 850px;
-    min-width: 300px;
     background: white;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     align-items: center;
